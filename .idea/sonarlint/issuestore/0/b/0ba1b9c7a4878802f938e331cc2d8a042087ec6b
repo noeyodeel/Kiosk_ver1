@@ -1,6 +1,10 @@
 
-r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„èÆßıÿÿÿÿ8ÆÈ­ÂÎ1
+r	java:S117	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„èÆßıÿÿÿÿ8İâÓëÎ1
+y
+java:S1450"WRemove the "menuData" field and declare it as a local variable in the relevant methods.(ÁÃç¬øÿÿÿÿ8˜ØëÎ1
 [
-java:S1854"9Remove this useless assignment to local variable "Kiosk".(„èÆßıÿÿÿÿ8ÊÈ­ÂÎ1
+java:S1854	"9Remove this useless assignment to local variable "Kiosk".(„èÆßıÿÿÿÿ8ßâÓëÎ1
 L
-java:S1481"*Remove this unused "Kiosk" local variable.(„èÆßıÿÿÿÿ8ÌÈ­ÂÎ1
+java:S1481	"*Remove this unused "Kiosk" local variable.(„èÆßıÿÿÿÿ8àâÓëÎ1
+N
+java:S1068",Remove this unused "menuData" private field.(ÁÃç¬øÿÿÿÿ8’˜ØëÎ1

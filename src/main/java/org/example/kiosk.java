@@ -1,11 +1,16 @@
 package org.example;
 
+import java.awt.*;
+import java.util.List;
 import java.util.Scanner;
 
 public class kiosk {
-    Cart cart = new Cart();
+
+
+    private static MenuData menuData;
 
     public static void run() {
+        menuData = new MenuData();
 
 
         Cart cart = new Cart();
@@ -13,6 +18,9 @@ public class kiosk {
         while (true) {
             System.out.println("\n[SHAKESHACK BURGER]");
             System.out.println("1.Burger\n2.Drink\n3.side\n4.Order\n5.Cancel");
+            List<Menu> mainMenu = menuData.getMenus();
+            System.out.println("");
+
             Scanner sc = new Scanner(System.in);
             int menu = sc.nextInt();
 
