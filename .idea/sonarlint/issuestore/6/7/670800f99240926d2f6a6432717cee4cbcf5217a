@@ -1,0 +1,64 @@
+
+h	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8·¦¬æÎ1
+
+java:S1192"lDefine a constant instead of duplicating this literal "ê°€ ì¥ë°”êµ¬ë‹ˆì— ì¶”ê°€ ë˜ì—ˆìŠµë‹ˆë‹¤." 8 times.(ÑÉ„ÿÿÿÿÿ8‹÷§æÎ1
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Á“ò©úÿÿÿÿ8‹÷§æÎ1
+r	java:S117""QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ö‘’×ûÿÿÿÿ8‹÷§æÎ1
+l	java:S117,"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤áÕ8‹÷§æÎ1
+m	java:S117:"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†—¶Ú8‹÷§æÎ1
+r	java:S117C"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÂÎ¦ûÿÿÿÿ8‹÷§æÎ1
+m	java:S117L"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğÎ¹ù8‹÷§æÎ1
+r	java:S117Z"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÍŞøÿÿÿÿ8‹÷§æÎ1
+m	java:S117c"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹èÛõ8‹÷§æÎ1
+l	java:S117l"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—Å¡o8‹÷§æÎ1
+i	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Êú÷Ã8Œ÷§æÎ1
+D
+java:S2189""Add an end condition to this loop.(˜ïˆÿÿÿÿÿ8ä÷§æÎ1
+o
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 74 to the 15 allowed.(Üˆ¤8ç÷§æÎ1
+G	java:S106"+Replace this use of System.out by a logger.(üí‡Ç8è÷§æÎ1
+L	java:S106"+Replace this use of System.out by a logger.(Êåõ÷øÿÿÿÿ8è÷§æÎ1
+L	java:S106"+Replace this use of System.out by a logger.(”ö„»ÿÿÿÿÿ8ê÷§æÎ1
+L	java:S106"+Replace this use of System.out by a logger.(ÑÉ„ÿÿÿÿÿ8ë÷§æÎ1
+L	java:S106("+Replace this use of System.out by a logger.(ã˜¬Æùÿÿÿÿ8ì÷§æÎ1
+L	java:S1062"+Replace this use of System.out by a logger.(Ó×ãŸûÿÿÿÿ8ì÷§æÎ1
+L	java:S1067"+Replace this use of System.out by a logger.(ëü¶ˆşÿÿÿÿ8í÷§æÎ1
+F	java:S106@"+Replace this use of System.out by a logger.(´è>8î÷§æÎ1
+G	java:S106I"+Replace this use of System.out by a logger.(ƒôúû8î÷§æÎ1
+G	java:S106R"+Replace this use of System.out by a logger.(ŒÜùÙ8ï÷§æÎ1
+G	java:S106W"+Replace this use of System.out by a logger.(ö±–Ï8ï÷§æÎ1
+G	java:S106`"+Replace this use of System.out by a logger.(•µÀş8ğ÷§æÎ1
+G	java:S106i"+Replace this use of System.out by a logger.(¼¸£–8ğ÷§æÎ1
+G	java:S106r"+Replace this use of System.out by a logger.(½º8ñ÷§æÎ1
+L	java:S106w"+Replace this use of System.out by a logger.(¾°¼Áşÿÿÿÿ8ñ÷§æÎ1
+G	java:S106y"+Replace this use of System.out by a logger.(£®š«8ñ÷§æÎ1
+L	java:S106|"+Replace this use of System.out by a logger.(‘á‹şÿÿÿÿ8ñ÷§æÎ1
+O
+java:S1135z"2Complete the task associated to this TODO comment.(ùô»‰8ò÷§æÎ1
+L	java:S106~"+Replace this use of System.out by a logger.(µòÄüÿÿÿÿ8ò÷§æÎ1
+G	java:S106€"+Replace this use of System.out by a logger.(ªê¥u8ò÷§æÎ1
+H	java:S106"+Replace this use of System.out by a logger.(€Ğµ8ò÷§æÎ1
+M	java:S106‚"+Replace this use of System.out by a logger.(¼š°¾øÿÿÿÿ8ò÷§æÎ1
+M	java:S106†"+Replace this use of System.out by a logger.(Ò´Œüÿÿÿÿ8ò÷§æÎ1
+M	java:S106ˆ"+Replace this use of System.out by a logger.(íöäîüÿÿÿÿ8ò÷§æÎ1
+H	java:S106‰"+Replace this use of System.out by a logger.(‚¼‰ÿ8ó÷§æÎ1
+|
+java:S2142Œ"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8§¬æÎ1
+^	java:S125"<This block of commented-out lines of code should be removed.(¶õ¸ûÿÿÿÿ8ó÷§æÎ1
+H	java:S106“"+Replace this use of System.out by a logger.(ôæØÕ8ó÷§æÎ1
+G	java:S106”"+Replace this use of System.out by a logger.(ø¾¢>8ó÷§æÎ1
+M	java:S106˜"+Replace this use of System.out by a logger.(ß£¢şÿÿÿÿÿ8ô÷§æÎ1
+d
+java:S6201¡"FReplace this instanceof check and cast with 'instanceof Burger burger'(´ïâˆ8ô÷§æÎ1
+M	java:S106¢"+Replace this use of System.out by a logger.(´æ–ˆÿÿÿÿÿ8ô÷§æÎ1
+g
+java:S6201£"DReplace this instanceof check and cast with 'instanceof Drink drink'(Áşõşÿÿÿÿ8ô÷§æÎ1
+M	java:S106¤"+Replace this use of System.out by a logger.(Şâ²éÿÿÿÿÿ8õ÷§æÎ1
+e
+java:S6201¥"BReplace this instanceof check and cast with 'instanceof Side side'(ÑÏ«øùÿÿÿÿ8õ÷§æÎ1
+F	java:S106¦"+Replace this use of System.out by a logger.(Úái8õ÷§æÎ1
+j	java:S100¬"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©§â58õ÷§æÎ1
+M	java:S106­"+Replace this use of System.out by a logger.(ƒòô„ûÿÿÿÿ8ö÷§æÎ1
+G	java:S106®"+Replace this use of System.out by a logger.(ø¾¢>8èÆ­æÎ1
+ä
+java:S6541"ÆA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 135 to 64, Complexity from 28 to 14, Nesting Level from 5 to 2, Number of Variables from 27 to 6.(Üˆ¤8ö÷§æÎ1
