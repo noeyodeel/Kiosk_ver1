@@ -15,7 +15,7 @@ i	java:S101"MRename this class name to match the regular expression '^[A-Z][a
 D
 java:S2189""Add an end condition to this loop.(˜ïˆžÿÿÿÿÿ8ä÷§æÎ1
 o
-java:S3776"RRefactor this method to reduce its Cognitive Complexity from 74 to the 15 allowed.(ÜŽˆ¤8ç÷§æÎ1
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 74 to the 15 allowed.(ÜŽˆ¤8ç÷§æÎ1
 G	java:S106"+Replace this use of System.out by a logger.(üí‡Ç8è÷§æÎ1
 L	java:S106"+Replace this use of System.out by a logger.(Êåõ÷øÿÿÿÿ8è÷§æÎ1
 L	java:S106"+Replace this use of System.out by a logger.(”ö„»ÿÿÿÿÿ8ê÷§æÎ1
@@ -25,7 +25,7 @@ L	java:S1062"+Replace this use of System.out by a logger.(Ó×ãŸûÿÿÿÿ8ì÷§æÎ1
 L	java:S1067"+Replace this use of System.out by a logger.(ëü¶ˆþÿÿÿÿ8í÷§æÎ1
 F	java:S106@"+Replace this use of System.out by a logger.(´è>8î÷§æÎ1
 G	java:S106I"+Replace this use of System.out by a logger.(ƒôúû8î÷§æÎ1
-G	java:S106R"+Replace this use of System.out by a logger.(ŒÜùÙ8ï÷§æÎ1
+G	java:S106R"+Replace this use of System.out by a logger.(À÷À–8ï÷§æÎ1
 G	java:S106W"+Replace this use of System.out by a logger.(ö±–Ï8ï÷§æÎ1
 G	java:S106`"+Replace this use of System.out by a logger.(•µÀþ8ð÷§æÎ1
 G	java:S106i"+Replace this use of System.out by a logger.(¼¸£–8ð÷§æÎ1
@@ -49,16 +49,16 @@ H	java:S106“"+Replace this use of System.out by a logger.(ôæØÕ8ó÷§æÎ1
 G	java:S106”"+Replace this use of System.out by a logger.(ø¾¢>8ó÷§æÎ1
 M	java:S106˜"+Replace this use of System.out by a logger.(ß£¢þÿÿÿÿÿ8ô÷§æÎ1
 d
-java:S6201¡"FReplace this instanceof check and cast with 'instanceof Burger burger'(´ïâˆ8ô÷§æÎ1
-M	java:S106¢"+Replace this use of System.out by a logger.(´æ–ˆÿÿÿÿÿ8ô÷§æÎ1
+java:S6201¢"FReplace this instanceof check and cast with 'instanceof Burger burger'(´ïâˆ8ô÷§æÎ1
+M	java:S106£"+Replace this use of System.out by a logger.(´æ–ˆÿÿÿÿÿ8ô÷§æÎ1
 g
-java:S6201£"DReplace this instanceof check and cast with 'instanceof Drink drink'(Áþõþÿÿÿÿ8ô÷§æÎ1
-M	java:S106¤"+Replace this use of System.out by a logger.(Þâ²éÿÿÿÿÿ8õ÷§æÎ1
+java:S6201¤"DReplace this instanceof check and cast with 'instanceof Drink drink'(Áþõþÿÿÿÿ8ô÷§æÎ1
+M	java:S106¥"+Replace this use of System.out by a logger.(Þâ²éÿÿÿÿÿ8õ÷§æÎ1
 e
-java:S6201¥"BReplace this instanceof check and cast with 'instanceof Side side'(ÑÏ«øùÿÿÿÿ8õ÷§æÎ1
-F	java:S106¦"+Replace this use of System.out by a logger.(Úái8õ÷§æÎ1
-j	java:S100¬"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©§â58õ÷§æÎ1
-M	java:S106­"+Replace this use of System.out by a logger.(ƒòô„ûÿÿÿÿ8ö÷§æÎ1
-G	java:S106®"+Replace this use of System.out by a logger.(ø¾¢>8èÆ­æÎ1
+java:S6201¦"BReplace this instanceof check and cast with 'instanceof Side side'(ÑÏ«øùÿÿÿÿ8õ÷§æÎ1
+F	java:S106§"+Replace this use of System.out by a logger.(Úái8õ÷§æÎ1
+j	java:S100­"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©§â58õ÷§æÎ1
+M	java:S106®"+Replace this use of System.out by a logger.(ƒòô„ûÿÿÿÿ8ö÷§æÎ1
+G	java:S106¯"+Replace this use of System.out by a logger.(ø¾¢>8èÆ­æÎ1
 ä
-java:S6541"ÆA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 135 to 64, Complexity from 28 to 14, Nesting Level from 5 to 2, Number of Variables from 27 to 6.(ÜŽˆ¤8ö÷§æÎ1
+java:S6541"ÆA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 135 to 64, Complexity from 28 to 14, Nesting Level from 5 to 2, Number of Variables from 27 to 6.(ÜŽˆ¤8ö÷§æÎ1

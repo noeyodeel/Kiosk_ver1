@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Cart {
     private List<Menu> menuList = new ArrayList<>();
-    private int watingNumber=0;
+    private int watingNumber = 0;
 
     public Cart() {
 
@@ -16,14 +16,13 @@ public class Cart {
         menuList.add(menu);
     }
 
-    //public String getMenu(){
-    //return menuList.g
-    //}
 
-    public  int watingNumber(){
+    //웨이팅 넘버
+    public int watingNumber() {
         watingNumber++;
         return watingNumber;
     }
+
     public String getName() {
         for (Menu menu : menuList) {
             return menu.getName();
@@ -43,7 +42,7 @@ public class Cart {
     //    카트에 담겨있는 메뉴와 설명 출력
     public void printMenu() {
         for (Menu menu : menuList) {
-            System.out.println(menu.getName() + "  |  "+menu.getDescription());
+            System.out.println(menu.getName() + "  |  " + menu.getDescription());
         }
     }
 
@@ -63,6 +62,11 @@ public class Cart {
         return totalPrice;
     }
 
+    //    cart 비우기
+    public void clear() {
+        menuList.clear();
+    }
+
     public int getPrice() {
         int price = 0;
         for (Menu menu : menuList) {
@@ -77,10 +81,7 @@ public class Cart {
         return price;
     }
 
-    //    cart 비우기
-    public void clear() {
-        menuList.clear();
-    }
+
 }
 
 
