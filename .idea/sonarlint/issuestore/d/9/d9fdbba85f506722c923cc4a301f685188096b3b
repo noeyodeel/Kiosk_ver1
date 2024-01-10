@@ -1,23 +1,22 @@
 
 £
-java:S1186
-"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(²¸ş¾ÿÿÿÿÿ8ôó°åÎ1
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(²¸ş¾ÿÿÿÿÿ8Â¥³ŠÏ1
 S
-java:S1751"6Remove this "return" statement or make it conditional.(·¢şŸ8÷ó°åÎ1
+java:S1751"6Remove this "return" statement or make it conditional.(·¢şŸ8Ä¥³ŠÏ1
 c
-java:S1126$"AReplace this if-then-else statement by a single return statement.(Ã•Ãõúÿÿÿÿ8÷ó°åÎ1
-G	java:S106-"+Replace this use of System.out by a logger.(ê··µ8øó°åÎ1
+java:S1126%"AReplace this if-then-else statement by a single return statement.(Ã•Ãõúÿÿÿÿ8Å¥³ŠÏ1
+G	java:S106."+Replace this use of System.out by a logger.(ê··µ8Å¥³ŠÏ1
 c
-java:S62016"FReplace this instanceof check and cast with 'instanceof Burger burger'(´ïâˆ8øó°åÎ1
+java:S62017"FReplace this instanceof check and cast with 'instanceof Burger burger'(´ïâˆ8Æ¥³ŠÏ1
 f
-java:S62018"DReplace this instanceof check and cast with 'instanceof Drink drink'(Áşõşÿÿÿÿ8øó°åÎ1
+java:S62019"DReplace this instanceof check and cast with 'instanceof Drink drink'(Áşõşÿÿÿÿ8Æ¥³ŠÏ1
 d
-java:S6201:"BReplace this instanceof check and cast with 'instanceof Side side'(ÑÏ«øùÿÿÿÿ8øó°åÎ1
+java:S6201;"BReplace this instanceof check and cast with 'instanceof Side side'(ÑÏ«øùÿÿÿÿ8Æ¥³ŠÏ1
 K
-java:S1481H")Remove this unused "menu" local variable.(«ÿ¹Öüÿÿÿÿ8¥ÁëçÎ1
+java:S1481I")Remove this unused "menu" local variable.(«ÿ¹Öüÿÿÿÿ8Æ¥³ŠÏ1
 c
-java:S6201I"FReplace this instanceof check and cast with 'instanceof Burger burger'(¦Û“¤8¦ÁëçÎ1
+java:S6201J"FReplace this instanceof check and cast with 'instanceof Burger burger'(¦Û“¤8Æ¥³ŠÏ1
 f
-java:S6201K"DReplace this instanceof check and cast with 'instanceof Drink drink'(‚Àíşÿÿÿÿ8¦ÁëçÎ1
+java:S6201L"DReplace this instanceof check and cast with 'instanceof Drink drink'(‚Àíşÿÿÿÿ8Ç¥³ŠÏ1
 d
-java:S6201M"BReplace this instanceof check and cast with 'instanceof Side side'(İ£¬ûÿÿÿÿ8¦ÁëçÎ1
+java:S6201N"BReplace this instanceof check and cast with 'instanceof Side side'(İ£¬ûÿÿÿÿ8Ç¥³ŠÏ1

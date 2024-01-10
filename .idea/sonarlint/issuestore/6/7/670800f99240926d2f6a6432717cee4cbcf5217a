@@ -1,72 +1,45 @@
 
-h	java:S112•"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8‰ğëÎ1
-
-java:S1192'"lDefine a constant instead of duplicating this literal "ê°€ ì¥ë°”êµ¬ë‹ˆì— ì¶”ê°€ ë˜ì—ˆìŠµë‹ˆë‹¤." 8 times.(ÑÉ„ÿÿÿÿÿ8‰ğëÎ1
-r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Á“ò©úÿÿÿÿ8‰ğëÎ1
-r	java:S117*"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ö‘’×ûÿÿÿÿ8‰ğëÎ1
-l	java:S1174"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤áÕ8‰ğëÎ1
-m	java:S117B"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†—¶Ú8‰ğëÎ1
-r	java:S117K"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÂÎ¦ûÿÿÿÿ8‰ğëÎ1
-m	java:S117T"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğÎ¹ù8‰ğëÎ1
-r	java:S117b"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÍŞøÿÿÿÿ8‰ğëÎ1
-m	java:S117k"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹èÛõ8‰ğëÎ1
-l	java:S117t"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—Å¡o8‰ğëÎ1
-i	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Êú÷Ã8ŠğëÎ1
-y
-java:S1450
-"WRemove the "menuData" field and declare it as a local variable in the relevant methods.(ÁÃç¬øÿÿÿÿ8ğëÎ1
+c
+java:S1192S"FDefine a constant instead of duplicating this literal "   | " 3 times.(Š™•ä8ıôóŒÏ1
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®şí©ùÿÿÿÿ8ıôóŒÏ1
+m	java:S117&"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(êä¼¥8ıôóŒÏ1
+r	java:S117,"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ùÄÑÌùÿÿÿÿ8ıôóŒÏ1
+i	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Êú÷Ã8ıôóŒÏ1
 W
-java:S1118":Add a private constructor to hide the implicit public one.(Êú÷Ã8ğëÎ1
-o
-java:S3776"RRefactor this method to reduce its Cognitive Complexity from 74 to the 15 allowed.(Üˆ¤8ğëÎ1
-Y
-java:S1854"<Remove this useless assignment to local variable "mainMenu".(¾¿Û§8‘ğëÎ1
-G	java:S106"+Replace this use of System.out by a logger.(üí‡Ç8‘ğëÎ1
-L	java:S106"+Replace this use of System.out by a logger.(Êåõ÷øÿÿÿÿ8‘ğëÎ1
-J
-java:S1481"-Remove this unused "mainMenu" local variable.(¾¿Û§8’ğëÎ1
-L	java:S106"+Replace this use of System.out by a logger.(ŞÒ—üÿÿÿÿ8’ğëÎ1
-L	java:S106"+Replace this use of System.out by a logger.(”ö„»ÿÿÿÿÿ8“ğëÎ1
-L	java:S106'"+Replace this use of System.out by a logger.(ÑÉ„ÿÿÿÿÿ8”ğëÎ1
-L	java:S1060"+Replace this use of System.out by a logger.(ã˜¬Æùÿÿÿÿ8”ğëÎ1
-L	java:S106:"+Replace this use of System.out by a logger.(Ó×ãŸûÿÿÿÿ8”ğëÎ1
-L	java:S106?"+Replace this use of System.out by a logger.(ëü¶ˆşÿÿÿÿ8•ğëÎ1
-F	java:S106H"+Replace this use of System.out by a logger.(´è>8•ğëÎ1
-G	java:S106Q"+Replace this use of System.out by a logger.(ƒôúû8•ğëÎ1
-G	java:S106Z"+Replace this use of System.out by a logger.(À÷À–8–ğëÎ1
-G	java:S106_"+Replace this use of System.out by a logger.(ö±–Ï8–ğëÎ1
-G	java:S106h"+Replace this use of System.out by a logger.(•µÀş8–ğëÎ1
-G	java:S106q"+Replace this use of System.out by a logger.(¼¸£–8—ğëÎ1
-G	java:S106z"+Replace this use of System.out by a logger.(½º8—ğëÎ1
-L	java:S106"+Replace this use of System.out by a logger.(¾°¼Áşÿÿÿÿ8—ğëÎ1
-H	java:S106"+Replace this use of System.out by a logger.(£®š«8—ğëÎ1
-M	java:S106„"+Replace this use of System.out by a logger.(‘á‹şÿÿÿÿ8—ğëÎ1
-P
-java:S1135‚"2Complete the task associated to this TODO comment.(ùô»‰8—ğëÎ1
-M	java:S106†"+Replace this use of System.out by a logger.(µòÄüÿÿÿÿ8—ğëÎ1
-G	java:S106ˆ"+Replace this use of System.out by a logger.(ªê¥u8—ğëÎ1
-H	java:S106‰"+Replace this use of System.out by a logger.(€Ğµ8˜ğëÎ1
-M	java:S106Š"+Replace this use of System.out by a logger.(¼š°¾øÿÿÿÿ8˜ğëÎ1
-M	java:S106"+Replace this use of System.out by a logger.(Ò´Œüÿÿÿÿ8˜ğëÎ1
-M	java:S106"+Replace this use of System.out by a logger.(íöäîüÿÿÿÿ8˜ğëÎ1
-H	java:S106‘"+Replace this use of System.out by a logger.(‚¼‰ÿ8˜ğëÎ1
+java:S1118":Add a private constructor to hide the implicit public one.(Êú÷Ã8…õóŒÏ1
+G	java:S106"+Replace this use of System.out by a logger.(üí‡Ç8†õóŒÏ1
+L	java:S106"+Replace this use of System.out by a logger.(Ò¹ÏÚüÿÿÿÿ8†õóŒÏ1
+F	java:S106"+Replace this use of System.out by a logger.(™ÍŞ8†õóŒÏ1
+>	java:S131""Add a default case to this switch.(™Ïêƒ8ˆõóŒÏ1
+F	java:S106 "+Replace this use of System.out by a logger.(½õój8ˆõóŒÏ1
+]	java:S125""<This block of commented-out lines of code should be removed.(¡¬‰¹úÿÿÿÿ8ˆõóŒÏ1
+L	java:S106'"+Replace this use of System.out by a logger.(ò€²¬øÿÿÿÿ8ˆõóŒÏ1
+G	java:S106-"+Replace this use of System.out by a logger.(ãùâ´8ˆõóŒÏ1
+G	java:S106S"+Replace this use of System.out by a logger.(Š™•ä8‰õóŒÏ1
+L	java:S106T"+Replace this use of System.out by a logger.(ƒòô„ûÿÿÿÿ8‰õóŒÏ1
+G	java:S106U"+Replace this use of System.out by a logger.(—È¶£8‰õóŒÏ1
+L	java:S106`"+Replace this use of System.out by a logger.(Èïûÿÿÿÿÿ8ŠõóŒÏ1
+G	java:S106e"+Replace this use of System.out by a logger.(äÈ‡±8ŠõóŒÏ1
+G	java:S106o"+Replace this use of System.out by a logger.(ì£ÿ–8ŠõóŒÏ1
+G	java:S106r"+Replace this use of System.out by a logger.(ò„Çè8‹õóŒÏ1
+L	java:S106s"+Replace this use of System.out by a logger.(ã¨–Úùÿÿÿÿ8‹õóŒÏ1
+L	java:S106u"+Replace this use of System.out by a logger.(¼š°¾øÿÿÿÿ8‹õóŒÏ1
+H	java:S106„"+Replace this use of System.out by a logger.(äÈ‡±8‹õóŒÏ1
+M	java:S106"+Replace this use of System.out by a logger.(®€ÿïùÿÿÿÿ8ŒõóŒÏ1
+M	java:S106•"+Replace this use of System.out by a logger.(Ò´Œüÿÿÿÿ8ıĞöŒÏ1
+H	java:S106–"+Replace this use of System.out by a logger.(¸ÿıÛ8›øŒÏ1
+M	java:S106Ÿ"+Replace this use of System.out by a logger.(Û’âûÿÿÿÿ8‘›øŒÏ1
 |
-java:S2142”"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8˜ğëÎ1
-^	java:S125—"<This block of commented-out lines of code should be removed.(¶õ¸ûÿÿÿÿ8™ğëÎ1
-H	java:S106›"+Replace this use of System.out by a logger.(ôæØÕ8™ğëÎ1
-G	java:S106œ"+Replace this use of System.out by a logger.(ø¾¢>8™ğëÎ1
-M	java:S106 "+Replace this use of System.out by a logger.(ß£¢şÿÿÿÿÿ8™ğëÎ1
-d
-java:S6201ª"FReplace this instanceof check and cast with 'instanceof Burger burger'(´ïâˆ8šğëÎ1
-M	java:S106«"+Replace this use of System.out by a logger.(´æ–ˆÿÿÿÿÿ8šğëÎ1
-g
-java:S6201¬"DReplace this instanceof check and cast with 'instanceof Drink drink'(Áşõşÿÿÿÿ8šğëÎ1
-M	java:S106­"+Replace this use of System.out by a logger.(Şâ²éÿÿÿÿÿ8šğëÎ1
-e
-java:S6201®"BReplace this instanceof check and cast with 'instanceof Side side'(ÑÏ«øùÿÿÿÿ8šğëÎ1
-F	java:S106¯"+Replace this use of System.out by a logger.(Úái8šğëÎ1
-j	java:S100µ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©§â58šğëÎ1
-M	java:S106¶"+Replace this use of System.out by a logger.(ƒòô„ûÿÿÿÿ8›ğëÎ1
-G	java:S106·"+Replace this use of System.out by a logger.(ø¾¢>8›ğëÎ1
-ä
-java:S6541"ÆA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 138 to 64, Complexity from 28 to 14, Nesting Level from 5 to 2, Number of Variables from 28 to 6.(Üˆ¤8›ğëÎ1
+java:S2142¢"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8åïøŒÏ1
+H	java:S106­"+Replace this use of System.out by a logger.(¤ëÕ8‘›øŒÏ1
+H	java:S106´"+Replace this use of System.out by a logger.(¤ëÕ8æïøŒÏ1
+^	java:S125¼"<This block of commented-out lines of code should be removed.(ÖÁ¬éÿÿÿÿÿ8õóŒÏ1
+^	java:S125‹"<This block of commented-out lines of code should be removed.(ğÀù§üÿÿÿÿ8õóŒÏ1
+Y	java:S125Ÿ"<This block of commented-out lines of code should be removed.(ò°·Ñ8õóŒÏ1
+^	java:S125¯"<This block of commented-out lines of code should be removed.(á–‚¸úÿÿÿÿ8õóŒÏ1
+^	java:S125À"<This block of commented-out lines of code should be removed.(èô—­ùÿÿÿÿ8õóŒÏ1
+Y	java:S125Ğ"<This block of commented-out lines of code should be removed.(­„‰8õóŒÏ1
+Y	java:S125ß"<This block of commented-out lines of code should be removed.(¶È¨˜8õóŒÏ1
+X	java:S125ñ"<This block of commented-out lines of code should be removed.(´æìU8õóŒÏ1
+P
+java:S1135Æ"2Complete the task associated to this TODO comment.(ùô»‰8õóŒÏ1
