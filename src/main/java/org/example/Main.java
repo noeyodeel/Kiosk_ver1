@@ -15,7 +15,7 @@ public class Main {
 
         //메인 메뉴 출력
         System.out.println("\n[SHAKESHACK BURGER]에 오신것을 환영합니다!");
-        System.out.println("\n아래 메뉴판을 보시고 메뉴를 골라 입력해주세요.");
+        System.out.println("아래 메뉴판을 보시고 메뉴를 골라 입력해주세요.");
         System.out.println("\n[MENU]");
         List<Menu> mainMenu = menuData.getMenus("Main");
         printMainMenu(mainMenu);
@@ -29,37 +29,45 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
         int input = scanner.nextInt();
-        switch (input){
-            case 1:
-                List<Product> burger = menuData.getMenus(1);
-                System.out.println("[Burger Menu]");
-                printItem(burger);
-                //Product item = burger.get(1);
-                addCart(burger);
-                break;
-            case 2:
-                List<Product> Drink = menuData.getMenus(2);
-                System.out.println("[Drink Menu]");
-                printItem(Drink);
-                addCart(Drink);
-                break;
-            case 3:
-                List<Product> Side = menuData.getMenus(3);
-                System.out.println("[Side Menu]");
-                printItem(Side);
-                addCart(Side);
-                break;
-            case 4:
-                ShowOrderMenu();
-                break;
-            case 5:
-                CancelText();
-                break;
+
+        if(input == 0){
+            menuData.ShowAllOrder();  //총 판매 상품 출력
+            back();
+        }else if(input == 1){
+            List<Product> burger = menuData.getMenus(1);
+            System.out.println("[Burger Menu]");
+            printItem(burger);
+            selctedProduct(burger);
+        } else if (input == 2) {
+            List<Product> Drink = menuData.getMenus(2);
+            System.out.println("[Drink Menu]");
+            printItem(Drink);
+            selctedProduct(Drink);
+        }else if (input == 3) {
+            List<Product> Side = menuData.getMenus(3);
+            System.out.println("[Side Menu]");
+            printItem(Side);
+            selctedProduct(Side);
+        }else if (input == 4) {
+            ShowOrderMenu();
+        }else if (input == 5) {
+            CancelText();
+        }else {
+            System.out.println("잘못된 입력입니다. 다시 입력해주세요.");
+            showMainMenu();
+        }
+    }
+    private static  void back(){
+        System.out.println("1. 돌아가기");
+        Scanner scanner = new Scanner(System.in);
+        int input = scanner.nextInt();
+        if(input == 1){
+            showMainMenu();
         }
     }
 
     //    상품선택
-    private static void addCart(List<Product> products){
+    private static void selctedProduct(List<Product> products){
         Scanner scanner = new Scanner(System.in);
         int menu = scanner.nextInt();
         if(menu == 1){
@@ -71,6 +79,9 @@ public class Main {
         }else if(menu == 3){
             Product selcteditem = products.get(2);
             ShowSelectedproduct(selcteditem);
+        }else{
+            System.out.println("잘못된 입력입니다. 다시 입력해주세요.");
+            showMainMenu();
         }
     }
 
@@ -116,20 +127,21 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         int input = scanner.nextInt();
         if (input == 1) {
-            WatingNumber();	// 1. 주문 입력시 주문완료 처리
+            WatingNumber();	// 주문완료 처리
         } else if (input == 2) {
-            showMainMenu();		// 2. 메뉴판 입력시 메인메뉴 출력하며 돌아가기
+            showMainMenu();		
         } else {
             System.out.println("잘못된 입력입니다. 다시 입력해주세요.");
-            OrderInput();	// 잘못된 입력시 주문진행 입력처리 재수행
+            OrderInput();
         }
     }
 
     // 주문 완료 대기 번호 출력
     private static void WatingNumber() {
 
-        int orderNumber = menuData.generateOrderNumber(); 		// 컨텍스트에서 신규 주문번호 조회
+        int orderNumber = menuData.generateOrderNumber();
         List<Product> cart = menuData.getCart();
+        menuData.allOrder(cart);
 
         System.out.println("주문이 완료되었습니다!\n");
         System.out.println("대기번호는 [ " + orderNumber + " ] 번 입니다.");
@@ -139,15 +151,14 @@ public class Main {
 
     // 장바구니 초기화 3초 후 메인 메뉴 출력
     private static void Delay() {
-        menuData.resetCart();		// 컨텍스트에서 장바구니 초기화
+        menuData.resetCart();		// 장바구니 초기화
         System.out.println("(3초후 메뉴판으로 돌아갑니다.)");
         try {
             Thread.sleep(3000); // 3초 대기
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        showMainMenu();		// 메인메뉴 출력하며 돌아가기
-    }
+        showMainMenu();		    }
 
 
     // 주문 취소 확인 출력
@@ -177,14 +188,15 @@ public class Main {
     private  static void printMainMenu(List<Menu> menus) {
         for (int i = 0; i < menus.size(); i++) {
 
-            System.out.println(menus.get(i).getId() + ". " + menus.get(i).getName() + "   | " + menus.get(i).getDescription()); // ex. 0.메뉴이름 | 메뉴설명
+            System.out.println(menus.get(i).getId() + ". " + menus.get(i).getName() + "   | " + menus.get(i).getDescription());
         }
     }
     //    상품 출력
     private  static void printItem(List<Product> menus) {
-        for (int i = 0; i < menus.size(); i++) {
 
-            System.out.println(menus.get(i).getId() + ". " + menus.get(i).getName() + "   | " +menus.get(i).getPrice() + "   | "+menus.get(i).getDescription()); // ex. 0.메뉴이름 | 메뉴설명
+            //System.out.println(menus.
+        for (int i = 0; i < menus.size(); i++) {
+            System.out.println(menus.get(i).getId() + ". " + menus.get(i).getName() + "   | " +menus.get(i).getPrice() + "   | "+menus.get(i).getDescription());
         }
     }
 

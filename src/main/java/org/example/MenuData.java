@@ -11,6 +11,8 @@ public class MenuData {
     private List<Product> cart;    // 장바구니
     private int totalPrice;    // 전체 가격
     private int orderNumber;    // 주문 번호
+    private List<Product> allOrder; //총 판매 상품
+    private int allTotalPrice;  //  총 판매 금액
 
     public MenuData() {
         menus = new HashMap<>();
@@ -18,7 +20,8 @@ public class MenuData {
         cart = new ArrayList<>();
         totalPrice = 0;
         orderNumber = 0;
-
+        allOrder = new ArrayList<>();
+        allTotalPrice = 0;
         initalize();
     }
 
@@ -70,9 +73,9 @@ public class MenuData {
 
 
     // 상품메뉴 조회
-    public List<Product> getMenuItems(String key) {
+    public List<Product> getMenuItems(String value) {
 
-        return menuItems.get(key);
+        return menuItems.get(value);
     }
 
     /**
@@ -111,6 +114,25 @@ public class MenuData {
     public int generateOrderNumber() {
         orderNumber++;
         return orderNumber;
+    }
+
+    public void setAllTotalPrice(){
+        int total =
+    }
+
+//    총 판매 상품 저장
+    public void allOrder(List<Product> order){
+        for (Product product : cart) {
+            allOrder.add(product);
+        }
+    }
+   // 총 판매 상품 출력
+    public void ShowAllOrder(){
+        System.out.println("[ 총 판매상품 목록 현황 ]\n 현재까지 총 판매된 상품 목록은 아래와 같습니다.\n");
+
+        for (Product product : allOrder) {
+            System.out.println("-"+product.getName() + "   | " + product.getPrice() );
+        }
     }
 }
 
