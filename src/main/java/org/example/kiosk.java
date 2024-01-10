@@ -5,21 +5,28 @@ import java.util.List;
 import java.util.Scanner;
 
 public class kiosk {
-
-
     private static MenuData menuData;
 
-    public static void run() {
+    public static void on(){
         menuData = new MenuData();
 
+        System.out.println("[SHAKESHACK BURGER]");
+        System.out.println("\n[MENU]");
+        List<Menu> mainMenu = menuData.getMenus("Main");
+        int nextNum = (printMenu(mainMenu,1));
+        System.out.println("[ORDER]");
+        List<Menu> OrderMenu = menuData.getMenus("Order");
+        printMenu(OrderMenu,nextNum);
+
+        run();
+
+    }
+
+    public static void run() {
 
         Cart cart = new Cart();
 
         while (true) {
-            System.out.println("\n[SHAKESHACK BURGER]");
-            System.out.println("1.Burger\n2.Drink\n3.side\n4.Order\n5.Cancel");
-            List<Menu> mainMenu = menuData.getMenus();
-            System.out.println("");
 
             Scanner sc = new Scanner(System.in);
             int menu = sc.nextInt();
@@ -183,5 +190,33 @@ public class kiosk {
         System.out.println("1. 확인   2.취소 \n");
 
     }
+    /**
+     * 메뉴 목록 출력
+     * @param menus : 출력할 메뉴 리스트
+     * @param num : 출력중인 전체 순번
+     * @return 출력 후 전체 순번
+     */
+    private static int printMenu(List<Menu> menus, int num) {
+        for (int i=0; i<menus.size(); i++, num++) {		// menus 목록에 있는 메뉴 출력 (전체 순번값인 num 값도 ++)
+            System.out.println(num + ". " + menus.get(i).getName() + "   | " + menus.get(i).getDescription()); // ex. 0.메뉴이름 | 메뉴설명
+        }
+        return num;
+    }
+
+    /**
+     * 주문메뉴1. 주문진행 메뉴 출력
+     */
+    private static void displayOrderMenu() {
+        System.out.println("아래와 같이 주문 하시겠습니까?\n");
+        //menuContext.displayCart();			// 컨텍스트에서 장바구니 목록 출력
+
+        System.out.println("[ Total ]");
+        //System.out.println("W " + menuContext.getTotalPrice() + "\n");	// 컨텍스트에서 전체 가격 조회하여 출력
+
+        System.out.println("1. 주문      2. 메뉴판");
+
+       // handleOrderMenuInput();				// 주문진행 입력 처리
+    }
+
 
 }

@@ -49,6 +49,7 @@ public class MenuData {
      * @return 조회된 메뉴 목록
      */
     public List<Menu> getMenus(String key) {
+
         return menus.get(key);
     }
 
@@ -58,6 +59,7 @@ public class MenuData {
      * @return 조회된 상품메뉴 목록
      */
     public List<Product> getMenuItems(String key) {
+
         return menuItems.get(key);
     }
 }

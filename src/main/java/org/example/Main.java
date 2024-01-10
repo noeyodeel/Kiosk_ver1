@@ -7,6 +7,7 @@ public class Main {
 
         menuData = new MenuData();
         kiosk Kiosk = new kiosk();
-        kiosk.run();
+        //kiosk.run();
+        kiosk.on();
     }
 }
