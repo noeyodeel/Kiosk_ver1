@@ -116,8 +116,12 @@ public class MenuData {
         return orderNumber;
     }
 
-    public void setAllTotalPrice(){
-        int total =
+    public void setAllTotalPrice(int price){
+        allTotalPrice += price;
+    }
+    public void ShowAllTotalPrice(){
+        System.out.println("\n[ 총 판매금액 현황 ]\n현재까지 총 판매된 금액은 ["+allTotalPrice+"]원 입니다.\n");
+
     }
 
 //    총 판매 상품 저장
@@ -128,10 +132,15 @@ public class MenuData {
     }
    // 총 판매 상품 출력
     public void ShowAllOrder(){
-        System.out.println("[ 총 판매상품 목록 현황 ]\n 현재까지 총 판매된 상품 목록은 아래와 같습니다.\n");
+        System.out.println("[ 총 판매상품 목록 현황 ]");
+        if (allOrder.isEmpty()){
+            System.out.println("판매된 항목이 없습니다.\n");
+        }else {
+            System.out.println("현재까지 총 판매된 상품 목록은 아래와 같습니다.\n");
 
-        for (Product product : allOrder) {
-            System.out.println("-"+product.getName() + "   | " + product.getPrice() );
+            for (Product product : allOrder) {
+                System.out.println("-" + product.getName() + "   | " + product.getPrice());
+            }
         }
     }
 }

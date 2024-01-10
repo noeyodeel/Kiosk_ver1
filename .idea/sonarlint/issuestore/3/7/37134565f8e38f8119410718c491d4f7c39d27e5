@@ -1,0 +1,15 @@
+
+r	java:S117."QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤óÊıÿÿÿÿ8¿‡ó”Ï1
+m	java:S1172"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾íì8¿‡ó”Ï1
+g
+java:S2175N"EA "Map<Integer, List>" cannot contain a "String" in a "Integer" type.(Îºóìşÿÿÿÿ8Æ‡ó”Ï1
+L	java:S106h"+Replace this use of System.out by a logger.(÷Æüÿÿÿÿÿ8Ç‡ó”Ï1
+o	java:S100z"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Î„ÿ”ûÿÿÿÿ8Ç‡ó”Ï1
+G	java:S106{"+Replace this use of System.out by a logger.(æ¸šä8Ç‡ó”Ï1
+O
+java:S1172€",Remove this unused method parameter "order".(ç™¥Úûÿÿÿÿ8È‡ó”Ï1
+k	java:S100†"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(üŒÒÕ8È‡ó”Ï1
+M	java:S106‡"+Replace this use of System.out by a logger.(¦÷®úıÿÿÿÿ8È‡ó”Ï1
+M	java:S106‰"+Replace this use of System.out by a logger.(Ú‡Ê‹ùÿÿÿÿ8È‡ó”Ï1
+H	java:S106‹"+Replace this use of System.out by a logger.(ÅÃ›ø8Íßı”Ï1
+H	java:S106"+Replace this use of System.out by a logger.(á«È–8Şå€•Ï1
